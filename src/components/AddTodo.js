@@ -22,7 +22,7 @@ const submit =(e)=>{
 <h2 className="mb-3 text-center"> ADD A  TODO</h2>
 <form onSubmit={submit}>
 <div className="mb-3">
-  <label htmlFor="exampleFormControlInput1" className="form-label">Email Your task</label>
+  <label htmlFor="exampleFormControlInput1" className="form-label">Enter Your task</label>
   <input type="name" className="form-control" value={title} onChange={(e)=>{settitle(e.target.value)}} id="exampleFormControlInput1" />
 </div>
 <div className="mb-3">
